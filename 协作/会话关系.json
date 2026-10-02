@@ -1,0 +1,126 @@
+{
+  "source_repository": "https://github.com/haoyang877/WZD-Amazon-Management",
+  "source_commit": "8db5b894bdf4423eb7e818f6d8c65a053945e2a8",
+  "status": "created",
+  "roles": [
+    {
+      "key": "ceo",
+      "title": "CEO 决策画像",
+      "manual": "CEO决策画像.md",
+      "reports_to": null,
+      "collaborates_with": [
+        "运营主管",
+        "产品开发管理",
+        "仓库管理",
+        "美工",
+        "财务",
+        "HR"
+      ],
+      "thread_id": "01a0fd75-a631-75d3-b688-b17496f5e5a3",
+      "creation_status": "created",
+      "initialization_file": "协作/ceo-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "ops",
+      "title": "运营主管｜WZD",
+      "manual": "roles/运营.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "产品开发管理",
+        "仓库管理",
+        "美工",
+        "财务",
+        "HR"
+      ],
+      "thread_id": "01a0fd75-f111-7a81-be87-ce944ffb4d97",
+      "creation_status": "created",
+      "initialization_file": "协作/ops-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "product",
+      "title": "产品开发管理｜WZD",
+      "manual": "roles/产品开发管理.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "运营主管",
+        "仓库管理",
+        "美工",
+        "财务"
+      ],
+      "thread_id": "01a0fd75-f205-71a3-a546-3824aa740882",
+      "creation_status": "created",
+      "initialization_file": "协作/product-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "warehouse",
+      "title": "仓库管理｜WZD",
+      "manual": "roles/仓库管理.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "运营主管",
+        "产品开发管理",
+        "财务"
+      ],
+      "thread_id": "01a0fd75-f300-7631-b163-da6684b130d8",
+      "creation_status": "created",
+      "initialization_file": "协作/warehouse-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "design",
+      "title": "美工｜WZD",
+      "manual": "roles/美工.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "运营主管",
+        "产品开发管理"
+      ],
+      "thread_id": "01a0fd75-f408-7d01-8b7d-6067c3c5937f",
+      "creation_status": "created",
+      "initialization_file": "协作/design-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "finance",
+      "title": "财务｜WZD",
+      "manual": "roles/财务.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "运营主管",
+        "产品开发管理",
+        "仓库管理",
+        "HR"
+      ],
+      "thread_id": "01a0fd75-f519-77b3-83ca-d773b52adfa8",
+      "creation_status": "created",
+      "initialization_file": "协作/finance-对话初始化.md",
+      "host_id": "local"
+    },
+    {
+      "key": "hr",
+      "title": "HR｜WZD",
+      "manual": "roles/HR.md",
+      "reports_to": "ceo",
+      "collaborates_with": [
+        "运营主管",
+        "财务"
+      ],
+      "thread_id": "01a0fd75-f618-7fc3-851e-6ea2b6025eb1",
+      "creation_status": "created",
+      "initialization_file": "协作/hr-对话初始化.md",
+      "host_id": "local"
+    }
+  ],
+  "workflow": [
+    "CEO定义问题",
+    "六职能分别判断",
+    "跨部门核对依赖",
+    "CEO汇总交由用户最终决策",
+    "回原职能对话跟踪"
+  ],
+  "real_organization_note": "现实人员汇报关系未完整核实；CEO→欧洲/美国主管→小组长→组员为拟议结构。",
+  "relationship_implementation": "角色初始化说明、共享职责手册及本地会话ID映射；非应用原生上下级权限或自动同步。"
+}
