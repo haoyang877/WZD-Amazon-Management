@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-04",
+  "product": {
+    "brand": "Zindoo",
+    "asin": "B0H5HKNFDM",
+    "sku": "LU-SBD0YXWS-900X400X3mm",
+    "variant_zh": "月下武士",
+    "dimensions_mm": {
+      "length": 900,
+      "width": 400,
+      "thickness": 3
+    }
+  },
+  "version": "v2.0",
+  "fields": [
+    {
+      "field": "标题",
+      "characters_including_spaces": 60,
+      "raw_utf8_bytes_including_spaces": 60
+    },
+    {
+      "field": "Artikel-Highlights",
+      "characters_including_spaces": 112,
+      "raw_utf8_bytes_including_spaces": 114
+    },
+    {
+      "field": "五点1",
+      "characters_including_spaces": 154,
+      "raw_utf8_bytes_including_spaces": 158
+    },
+    {
+      "field": "五点2",
+      "characters_including_spaces": 155,
+      "raw_utf8_bytes_including_spaces": 157
+    },
+    {
+      "field": "五点3",
+      "characters_including_spaces": 130,
+      "raw_utf8_bytes_including_spaces": 131
+    },
+    {
+      "field": "五点4",
+      "characters_including_spaces": 154,
+      "raw_utf8_bytes_including_spaces": 157
+    },
+    {
+      "field": "五点5",
+      "characters_including_spaces": 157,
+      "raw_utf8_bytes_including_spaces": 161
+    },
+    {
+      "field": "描述",
+      "characters_including_spaces": 526,
+      "raw_utf8_bytes_including_spaces": 539
+    },
+    {
+      "field": "Search Terms",
+      "characters_including_spaces": 85,
+      "raw_utf8_bytes_including_spaces": 85
+    }
+  ],
+  "keyword_source_rows": [
+    {
+      "term": "mauspad",
+      "rank": 308,
+      "keyword_row": 2,
+      "aba_row": 3,
+      "match": true
+    },
+    {
+      "term": "mauspad xxl",
+      "rank": 2941,
+      "keyword_row": 4,
+      "aba_row": 5,
+      "match": true
+    },
+    {
+      "term": "gaming mauspad",
+      "rank": 5937,
+      "keyword_row": 6,
+      "aba_row": 7,
+      "match": true
+    },
+    {
+      "term": "mauspad gaming",
+      "rank": 6302,
+      "keyword_row": 7,
+      "aba_row": 8,
+      "match": true
+    },
+    {
+      "term": "mauspad 900x400",
+      "rank": 39965,
+      "keyword_row": 15,
+      "aba_row": 16,
+      "match": true
+    },
+    {
+      "term": "mousepad",
+      "rank": 700,
+      "keyword_row": 3,
+      "aba_row": 4,
+      "match": true
+    },
+    {
+      "term": "deskmat",
+      "rank": 138092,
+      "keyword_row": 30,
+      "aba_row": 31,
+      "match": true
+    },
+    {
+      "term": "mouse mat",
+      "rank": 166868,
+      "keyword_row": 35,
+      "aba_row": 36,
+      "match": true
+    },
+    {
+      "term": "deskpad",
+      "rank": 175879,
+      "keyword_row": 36,
+      "aba_row": 37,
+      "match": true
+    },
+    {
+      "term": "mausmatte",
+      "rank": 205792,
+      "keyword_row": 37,
+      "aba_row": 38,
+      "match": true
+    },
+    {
+      "term": "schreibtischunterlage gaming",
+      "rank": 223220,
+      "keyword_row": 39,
+      "aba_row": 40,
+      "match": true
+    },
+    {
+      "term": "pc matte",
+      "rank": 424467,
+      "keyword_row": 64,
+      "aba_row": 65,
+      "match": true
+    }
+  ],
+  "keyword_count_with_rank_verified": 12,
+  "bullet_total_characters": 750,
+  "bullet_total_utf8_bytes": 764,
+  "search_terms_utf8_bytes_without_spaces": 76,
+  "assertion_results": {
+    "title_75": true,
+    "highlights_125": true,
+    "search_terms_less_than_250_raw_utf8": true,
+    "5_bullets_internal_max_180_total_900": true,
+    "search_terms_no_duplicate_tokens": true,
+    "7_unique_image_ids": true,
+    "evidence_ids_resolve": true,
+    "blocked_claim_scan_no_matches_in_copy_fields": true
+  },
+  "limitations": "校验不等同Amazon后台字段/索引或人类母语终审；关键词交叉核对基于首轮JSON提取行，并保留原始工作簿哈希。",
+  "sources_read_only_snapshot": [
+    {
+      "file": "运营数字化/角色/02_Listing内容负责人.md",
+      "sha256": "3015cc9efac6e3a92f2ca0df5d5d88a57216936096588ddb428a0c2c5014cb8e",
+      "size_bytes": 2429,
+      "mtime_ns": 1791115634214188700
+    },
+    {
+      "file": "运营数字化/运营数字化核心工作框架.md",
+      "sha256": "c8064fdcc9f9839d976242c67c76140b6d856220e57edffd425a96bac57947ec",
+      "size_bytes": 41792,
+      "mtime_ns": 1791115634212175200
+    },
+    {
+      "file": "运营数字化/试运行/鼠标垫_DE_20261004/00_产品事实与口径核对.md",
+      "sha256": "0e06b4ec4e4351975a4ceb4775b0f2332bddd729244fb630f4d26581755a9f65",
+      "size_bytes": 11438,
+      "mtime_ns": 1791117798292419800
+    },
+    {
+      "file": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/鼠标垫三项交付总览.md",
+      "sha256": "140018b3c98d5bfaed276c2c2c0489577bc3b88d3947bb6ba92566992268a058",
+      "size_bytes": 5056,
+      "mtime_ns": 1791118819983302600
+    },
+    {
+      "file": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/03_Listing文案_DE.md",
+      "sha256": "ff0ccff2ec2163bb9ca94ce63f5b39aefdb9a72bd3e8e00c7fc6df734f357401",
+      "size_bytes": 14668,
+      "mtime_ns": 1791118256269045400
+    },
+    {
+      "file": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/03_Listing可复制文本_DE.txt",
+      "sha256": "eea254a457a45b2e03fb709a0ebd69866d55349243a9b014e10d62ba14fda76d",
+      "size_bytes": 2044,
+      "mtime_ns": 1791118256271659900
+    },
+    {
+      "file": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/listing_design.json",
+      "sha256": "54366719ce47247362feb355ae1c9cfebf081d1739814d455d4c27b4051923af",
+      "size_bytes": 20684,
+      "mtime_ns": 1791118276245416700
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+      "sha256": "6e198c4bf1648c58e39440f1eb819662f0e1f71b69f79a610cc35c38e7e7d875",
+      "size_bytes": 12044,
+      "mtime_ns": 1791115291949793400
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+      "sha256": "41d16d716c7b7e8af9d7ccc0a15171a8b789aba94be741e96e6596a93bed3863",
+      "size_bytes": 21868,
+      "mtime_ns": 1791115834486784400
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/德国鼠标垫评论数据_2026.10.02.xlsx",
+      "sha256": "8fe215987aeef3c51fcb95d3cdd043a325f8488ea2611bb4cc20b28bae52c62e",
+      "size_bytes": 1252587,
+      "mtime_ns": 1791116186302778600
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+      "sha256": "2ecba837b49950d5e754b8a7669d81947a51c295b33820407d06b35803d6a8f4",
+      "size_bytes": 61650,
+      "mtime_ns": 1791110255908518000
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/实拍展开图.png",
+      "sha256": "c7f0129e03f646fef1995678fe079a4cae841e501e78e5b52aea37fd462e6dca",
+      "size_bytes": 64465988,
+      "mtime_ns": 1791116567759407500
+    },
+    {
+      "file": "本地未入库：运营数据/01-运营数据-鼠标垫/实拍卷图.jpg",
+      "sha256": "b64f30736ed431d4e93df61b000fd034e255ab7eb30eb95665031b6a96d31ea9",
+      "size_bytes": 3074071,
+      "mtime_ns": 1791116544891262800
+    }
+  ],
+  "outputs": [
+    "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/Listing_V2_德文可复制.txt",
+    "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/Listing_V2_审核与关键词.md",
+    "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/Listing_V2_结构化.json",
+    "运营数字化/汇报/鼠标垫_DE_20261004_V2/03_Listing内容负责人汇报.md"
+  ]
+}

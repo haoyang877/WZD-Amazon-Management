@@ -1,0 +1,437 @@
+{
+  "product": "Zindoo 月下武士900版",
+  "site": "DE",
+  "ASIN": "B0H5HKNFDM",
+  "SKU": "LU-SBD0YXWS-900X400X3mm",
+  "specification_mm": [
+    900,
+    400,
+    3
+  ],
+  "framework_version": "v1.0 / 2026-10-04",
+  "production_date": "2026-10-04",
+  "final_checked_date": "2026-10-08",
+  "report_timezone": "Asia/Shanghai",
+  "site_timezone": "Europe/Berlin",
+  "currency": "EUR",
+  "version": "V2",
+  "selection_basis": "_工作稿/final_copy_manifest.json 与最终7张实际PNG；未按生成目录最新时间替换入选图",
+  "image_count": 7,
+  "status": "视觉样稿，交付质量待改；经营效果样本不足；未上线",
+  "all_7_pixels_equal_selected_sources": true,
+  "all_7_crc_valid": true,
+  "source_images": [
+    "运营数据/01-运营数据-鼠标垫/设计图.jpg",
+    "运营数字化/试运行/鼠标垫_DE_20261004/_工作数据/preview_01-运营数据-鼠标垫_实拍展开图.jpg",
+    "运营数据/01-运营数据-鼠标垫/实拍卷图.jpg"
+  ],
+  "prompts_file": "生成提示词.json",
+  "refinement_prompts": [
+    "_工作稿/定向排版修订提示词.json",
+    "_工作稿/末两张排版修订提示词.json",
+    "_工作稿/三张定向排版提示词_20261008.json"
+  ],
+  "metadata_record": "_工作稿/元数据工具/元数据核对.json",
+  "images": [
+    {
+      "number": 1,
+      "filename": "01_白底单品.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/01_白底单品.png",
+      "source_generated_png": "本地生成或核验来源：exec-c1fe79f1-7f07-4d8f-8261-05c597d9b046.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-04",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 1622068,
+        "file_sha256": "0b8f29a677c3711871a91bcb8c271d752989bf29aa0f6108db6e460cfe91d4f0",
+        "idat_sha256": "76bc93d9f3a2eb23981a349a449da597f9601ce2482c011b9e9d71fd6f2cd264",
+        "rgb_pixels_sha256": "77056b2de4f5cb999d5e3b70b8d296710fac1314ebe412425e54f2620d8bd049",
+        "png_crc_valid": true,
+        "xmp_dc_subject": [],
+        "background_samples": [
+          {
+            "point": [
+              0,
+              0
+            ],
+            "rgb": [
+              254,
+              255,
+              254
+            ]
+          },
+          {
+            "point": [
+              1253,
+              0
+            ],
+            "rgb": [
+              254,
+              255,
+              254
+            ]
+          },
+          {
+            "point": [
+              0,
+              1253
+            ],
+            "rgb": [
+              254,
+              254,
+              254
+            ]
+          },
+          {
+            "point": [
+              1253,
+              1253
+            ],
+            "rgb": [
+              254,
+              253,
+              254
+            ]
+          },
+          {
+            "point": [
+              627,
+              30
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "point": [
+              627,
+              1224
+            ],
+            "rgb": [
+              255,
+              254,
+              254
+            ]
+          },
+          {
+            "point": [
+              30,
+              250
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "point": [
+              1224,
+              250
+            ],
+            "rgb": [
+              255,
+              254,
+              255
+            ]
+          }
+        ]
+      },
+      "source_file_sha256": "0b8f29a677c3711871a91bcb8c271d752989bf29aa0f6108db6e460cfe91d4f0",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 1,
+        "use": "白底单品",
+        "view": "高位轻斜；整垫完整，无配件无字",
+        "phone": "图案与轮廓可辨；无文字检查项",
+        "quality": "待改：背景抽检6/8点非纯白，RGB出现253—254；实物印色待复核"
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": null,
+      "previous_source_generated_png": null,
+      "revision_input_backup": null,
+      "revision_input_backup_sha256": null,
+      "white_background_samples_pass": false
+    },
+    {
+      "number": 2,
+      "filename": "02_自然光暖木办公.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/02_自然光暖木办公.png",
+      "source_generated_png": "本地生成或核验来源：exec-bb608b2e-d833-4f46-bc68-f926de97c5ba.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-04",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 2312867,
+        "file_sha256": "967542888144947a2c92da00f70e72645613e8e7961f0cc0e23d41d4662c4fd4",
+        "idat_sha256": "f4a749745e8dbecfa86261251db85922a23fc09061b2c0c5a9c81c5f47402037",
+        "rgb_pixels_sha256": "5a111d88383a57e02570491f26023fe9663d7ff131c64792f0a7792a8b8a42b9",
+        "png_crc_valid": true,
+        "xmp_dc_subject": []
+      },
+      "source_file_sha256": "967542888144947a2c92da00f70e72645613e8e7961f0cc0e23d41d4662c4fd4",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 2,
+        "use": "自然光办公搭配",
+        "view": "左前斜俯视暖木桌；键鼠在垫上，左端裁切",
+        "phone": "标题和配件说明可读；图案可辨",
+        "quality": "样稿可保留；远桌侧视不足、左端裁切；原版图案精确贴合待复核"
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": null,
+      "previous_source_generated_png": null,
+      "revision_input_backup": null,
+      "revision_input_backup_sha256": null
+    },
+    {
+      "number": 3,
+      "filename": "03_正交尺寸.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/03_正交尺寸.png",
+      "source_generated_png": "本地生成或核验来源：exec-315e5a95-7174-42df-99ae-6b5282952253.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-08",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 2126510,
+        "file_sha256": "0efd276e3bbee8a90c7c0ca239e9809e1245b2f82939cf11c8449819773835c3",
+        "idat_sha256": "4a682a2e507c9d61a6bc061d09d0494aebbea0abb74daffa4bf1150570dd6a47",
+        "rgb_pixels_sha256": "cf97caba4eb039aa876fa0e6a8c747a325d80e7f87e5a0453fbae6eeda1a7d58",
+        "png_crc_valid": true,
+        "xmp_dc_subject": []
+      },
+      "source_file_sha256": "0efd276e3bbee8a90c7c0ca239e9809e1245b2f82939cf11c8449819773835c3",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 3,
+        "use": "尺寸适配",
+        "view": "正交俯视长方形＋厚度侧视窗",
+        "phone": "主规格及900 mm、400 mm、3 mm标注可读，细线加深；目标字号初审通过",
+        "quality": "文字修订完成；900:400准确排版及3mm层厚仍需尺量核对",
+        "targeted_typography_pass": true
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": "one image_gen localized typography revision",
+      "previous_source_generated_png": "本地生成或核验来源：exec-98f8efd1-d16e-4ca9-936e-44d827950df5.png",
+      "revision_input_backup": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/_工作稿/排版修订前_20261008/03_正交尺寸.png",
+      "revision_input_backup_sha256": "2142b50dddac74dd58884d7d2fefed5c5411194c94e5dc79839199f4500e65a3"
+    },
+    {
+      "number": 4,
+      "filename": "04_成人模特游戏.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/04_成人模特游戏.png",
+      "source_generated_png": "本地生成或核验来源：exec-aa4abe8c-c9ce-4af8-8ff8-f7fe018833ae.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-04",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 1989537,
+        "file_sha256": "a830057bb5c3773ca407973294d8e2f8fa82547e06bb4f0d024cd8d29037e5cc",
+        "idat_sha256": "2bcb143ffc7b173df11ab7e785de78e07b5e4d22c77d0f4b565c18e04884830e",
+        "rgb_pixels_sha256": "be17b8a15523ccc3c935bc2829fcda984ab89bcb491c272f86d6707a659e7f14",
+        "png_crc_valid": true,
+        "xmp_dc_subject": [
+          "contains-synthetic-performer"
+        ]
+      },
+      "source_file_sha256": "8a0f2651953d9adc6bc6c349b06d813171d3ecf1d78d205149debfbf1e0cc56e",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 4,
+        "use": "成人模特游戏",
+        "view": "右侧后肩位；成年人侧脸/上身/双手，垫约1/3画面",
+        "phone": "标题、产品、成年模特及配件说明可辨",
+        "quality": "样稿可保留；手部细节、实物图案校色和商业权利待人工复核"
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": null,
+      "previous_source_generated_png": null,
+      "revision_input_backup": null,
+      "revision_input_backup_sha256": null,
+      "synthetic_performer": {
+        "required": true,
+        "depiction": "AI生成成年模特，侧脸/上身/双手",
+        "metadata_record": "_工作稿/元数据工具/元数据核对.json",
+        "backup": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/_工作稿/元数据工具/backups/04_成人模特游戏.8a0f2651953d9adc6bc6c349b06d813171d3ecf1d78d205149debfbf1e0cc56e.png.bak",
+        "root_idat_unchanged": true,
+        "root_non_xmp_chunks_unchanged": true,
+        "final_hash_matches_metadata_record": true
+      }
+    },
+    {
+      "number": 5,
+      "filename": "05_真实卷角结构.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/05_真实卷角结构.png",
+      "source_generated_png": "本地生成或核验来源：exec-80971c41-fef3-4352-a891-675e1bc23330.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-08",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 2208382,
+        "file_sha256": "77308034c6b13ac01f68518f9212f9c98c48bdf7f1ac5a983bf130215684b74a",
+        "idat_sha256": "8fae1d2ab3f9f55228ae134c43ca1bc3072a193f657ba8255bcf787f225e983f",
+        "rgb_pixels_sha256": "6cb7b5f11e43647848b3b355afafabc9a54d6115e8c4a4fcd73808bf442adbaf",
+        "png_crc_valid": true,
+        "xmp_dc_subject": []
+      },
+      "source_file_sha256": "77308034c6b13ac01f68518f9212f9c98c48bdf7f1ac5a983bf130215684b74a",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 5,
+        "use": "卷边/底面结构",
+        "view": "低位卷曲近景；细缝边、黑底及两条标签",
+        "phone": "Details im Blick.提升为中等标题，Vernähte Kanten./Gummibasis.标签放大后可读；目标层级初审通过",
+        "quality": "文字修订完成；底面纹理、针距/线色不可由生成图当实物证据",
+        "targeted_typography_pass": true
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": "one image_gen localized typography revision",
+      "previous_source_generated_png": "本地生成或核验来源：exec-7c7d72a9-e512-4642-a1f6-7ff046198b53.png",
+      "revision_input_backup": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/_工作稿/排版修订前_20261008/05_真实卷角结构.png",
+      "revision_input_backup_sha256": "bff3850d22b2825fe9d21cebadca7d4eceaae6f8682d7c5fa3361b4c5778b1ed"
+    },
+    {
+      "number": 6,
+      "filename": "06_冷灰对角图案.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/06_冷灰对角图案.png",
+      "source_generated_png": "本地生成或核验来源：exec-282a7173-57bb-405c-8678-c3b16fffe733.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-04",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 2265039,
+        "file_sha256": "48df9ebf240083f38f48bf7d149cb3fd56fb1b56c77eade3dbd7f75e4fc47a9d",
+        "idat_sha256": "c3eb7e1f3fa4924f1abe31e95702032feaaca2216c9a3f2713c5a761b58fb53a",
+        "rgb_pixels_sha256": "6035a9adc9bf23feeae9a0ef5629651d290d56613e2afcd79c4cc7c48925bbdd",
+        "png_crc_valid": true,
+        "xmp_dc_subject": []
+      },
+      "source_file_sha256": "48df9ebf240083f38f48bf7d149cb3fd56fb1b56c77eade3dbd7f75e4fc47a9d",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 6,
+        "use": "冷灰对角图案",
+        "view": "冷灰工作台对角近景；大面积图案，键盘置于垫外远端",
+        "phone": "主标题/辅助文案和配件说明可读",
+        "quality": "样稿可保留；图案校色待复核；该图展示风格，不证明键鼠摆放关系"
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": null,
+      "previous_source_generated_png": null,
+      "revision_input_backup": null,
+      "revision_input_backup_sha256": null
+    },
+    {
+      "number": 7,
+      "filename": "07_第一人称键鼠空间.png",
+      "path": "运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/最终7张/07_第一人称键鼠空间.png",
+      "source_generated_png": "本地生成或核验来源：exec-fcde4eb9-7a70-471d-bf60-8ea200926bc6.png",
+      "generation_tool": "built-in image_gen",
+      "production_date": "2026-10-08",
+      "final_checked_date": "2026-10-08",
+      "version": "V2",
+      "status": "视觉样稿，待实物/人工复核，未上线",
+      "file": {
+        "format": "PNG",
+        "pixels": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "bytes": 2222771,
+        "file_sha256": "86482d411b2fa926718b5ed8334ba44679cac05a4f68edf8e87d4cf00e8d94b0",
+        "idat_sha256": "43654388500ad73f69b0a15c4730d1f6cc43d80f12b735c0930bb74b3eb2a26f",
+        "rgb_pixels_sha256": "12b2c5bd39794339855bff601fbb8c44a4e4c166f53840878dc74b4aeaefbc56",
+        "png_crc_valid": true,
+        "xmp_dc_subject": [
+          "contains-synthetic-performer"
+        ]
+      },
+      "source_file_sha256": "6d9a8e79e561caf12e336c9c61c1e2ce082e65dbc023279f15d9b86c85abd4fc",
+      "source_idat_identical": true,
+      "source_rgb_pixels_identical": true,
+      "visual_mobile_audit": {
+        "n": 7,
+        "use": "第一人称键鼠空间",
+        "view": "双手操作主近景＋俯视小窗，键鼠在垫上",
+        "phone": "主标题和底部配件说明可读，窄净底栏保留；小窗布局保留，细部手指不由缩略图作完整解剖验收",
+        "quality": "配件说明修订完成；生成手部/小窗一致性及图案校色待人工复核",
+        "targeted_typography_pass": true
+      },
+      "original_production_date": "2026-10-04",
+      "revision_scope": "one image_gen localized typography revision",
+      "previous_source_generated_png": "本地生成或核验来源：exec-93ba48ac-dbc8-4f2f-be0b-7717338fe148.png",
+      "revision_input_backup": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/_工作稿/排版修订前_20261008/07_第一人称键鼠空间.png",
+      "revision_input_backup_sha256": "a451c11c8386da46907da6d1cc807aa03cc63b8c583cc0dbf0a0baea0ee3b6ce",
+      "synthetic_performer": {
+        "required": true,
+        "depiction": "AI生成手部操作，含小窗手部",
+        "metadata_record": "_工作稿/元数据工具/元数据核对.json",
+        "backup": "本地未入库：运营数字化/试运行/鼠标垫_DE_20261004/图片改版V2/_工作稿/元数据工具/backups/07_第一人称键鼠空间.6d9a8e79e561caf12e336c9c61c1e2ce082e65dbc023279f15d9b86c85abd4fc.png.bak",
+        "root_idat_unchanged": true,
+        "root_non_xmp_chunks_unchanged": true,
+        "final_hash_matches_metadata_record": true
+      }
+    }
+  ],
+  "last_typography_revision_date": "2026-10-08",
+  "mobile_audit_record": "_工作稿/390px复核_20261008.json",
+  "mobile_audit_page": "_工作稿/390px文字定稿_20261008.html",
+  "mobile_audit_conclusion": "03/05/07目标文字修订后390px初审通过；不替代Amazon App实机验收"
+}

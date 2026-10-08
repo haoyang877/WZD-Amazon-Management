@@ -1,0 +1,3721 @@
+{
+  "product": {
+    "brand": "Zindoo",
+    "motif": "月下武士 / Samurai im Mondlicht",
+    "size_mm": [
+      900,
+      400,
+      3
+    ],
+    "sku": "LU-SBD0YXWS-900X400X3mm",
+    "asin": "B0H5HKNFDM",
+    "identity_status": "internal_record_and_user_selected_900_variant; live_offer_unverified",
+    "source_refs": [
+      {
+        "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+        "sheet": "2026新款鼠标垫文案",
+        "row": 2,
+        "column": "A:D"
+      }
+    ]
+  },
+  "workbook": "运营数字化/试运行/鼠标垫_DE_20261004/outputs/01a106c4-b5c1-73c3-b9b8-bcb4a831a294/02_广告搭建方案_DE.xlsx",
+  "sha256": "f42b40d837de56347bf2bb26f1139bea7984471faa304f3ac7dd4d70b44ed765",
+  "sheets": {
+    "活动结构": {
+      "size": [
+        17,
+        13
+      ],
+      "tables": [
+        {
+          "name": "CampaignStructure",
+          "ref": "A5:M11"
+        }
+      ],
+      "freeze": "C6",
+      "formulas": [
+        {
+          "cell": "G6",
+          "formula": "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F6,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "G7",
+          "formula": "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F7,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "G8",
+          "formula": "=IF(ISNUMBER(G7),G7,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "H8",
+          "formula": "=IF(ISNUMBER(H7),H7,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "G9",
+          "formula": "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F9,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "G10",
+          "formula": "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F10,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "G14",
+          "formula": "=IF(COUNT(G6:G7,G9:G10)<4,\"待输入\",SUM(G6:G7,G9:G10))",
+          "cached": "待输入"
+        }
+      ],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900版SP活动结构",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "候选比例25% / 35% / 15% / 25%仅为分配示例。预算和bid留空，未执行。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "阶段",
+          "活动名称",
+          "广告组",
+          "匹配或类型",
+          "目的",
+          "可选份额",
+          "候选日预算EUR",
+          "实际日预算EUR",
+          "基础bid EUR",
+          "竞价策略",
+          "位置调整%",
+          "启用条件",
+          "本品ASIN"
+        ],
+        [
+          "首轮候选",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "精准",
+          "核心品类与游戏意图",
+          0.25,
+          "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F6,\"待输入\")",
+          null,
+          null,
+          "仅降低（候选）",
+          null,
+          "待库存、费用、预算与现有活动确认",
+          "B0H5HKNFDM"
+        ],
+        [
+          "首轮候选",
+          "DE_YXWS900_SP_XXL_EX_PH_V1",
+          "XXL_EX",
+          "精准",
+          "大尺寸与精确900规格",
+          0.35,
+          "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F7,\"待输入\")",
+          null,
+          null,
+          "仅降低（候选）",
+          null,
+          "待库存、费用、预算与现有活动确认",
+          "B0H5HKNFDM"
+        ],
+        [
+          "首轮候选",
+          "DE_YXWS900_SP_XXL_EX_PH_V1",
+          "XXL_PH",
+          "词组",
+          "小范围相关词组探索，同活动预算",
+          null,
+          "=IF(ISNUMBER(G7),G7,\"待输入\")",
+          "=IF(ISNUMBER(H7),H7,\"待输入\")",
+          null,
+          "仅降低（候选）",
+          null,
+          "待库存、费用、预算与现有活动确认",
+          "B0H5HKNFDM"
+        ],
+        [
+          "首轮候选",
+          "DE_YXWS900_SP_DESIGN_PH_V1",
+          "DESIGN_PH",
+          "词组",
+          "日式武士图案假设验证",
+          0.15,
+          "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F9,\"待输入\")",
+          null,
+          null,
+          "仅降低（候选）",
+          null,
+          "待库存、费用、预算与现有活动确认",
+          "B0H5HKNFDM"
+        ],
+        [
+          "首轮候选",
+          "DE_YXWS900_SP_AUTO_V1",
+          "AUTO",
+          "自动",
+          "发现真实查询和ASIN",
+          0.25,
+          "=IF(ISNUMBER('参数与公式'!$B$12),'参数与公式'!$B$12*F10,\"待输入\")",
+          null,
+          null,
+          "仅降低（候选）",
+          null,
+          "待库存、费用、预算与现有活动确认",
+          "B0H5HKNFDM"
+        ],
+        [
+          "第二轮，待核验",
+          "DE_YXWS900_SP_ASIN_PT_V2",
+          "ART_DESKMAT_PT",
+          "商品ASIN",
+          "艺术桌垫竞品商品定向，当前核验后决定",
+          null,
+          "待核验，不分配",
+          null,
+          null,
+          "仅降低（候选）",
+          null,
+          "待当前价、库存、规格核验，不投放",
+          "B0H5HKNFDM"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "参数与公式": {
+      "size": [
+        35,
+        6
+      ],
+      "tables": [
+        {
+          "name": "AdParameters",
+          "ref": "A5:F24"
+        },
+        {
+          "name": "EconomicLimits",
+          "ref": "A28:F35"
+        }
+      ],
+      "freeze": "A6",
+      "formulas": [
+        {
+          "cell": "B29",
+          "formula": "=IF(COUNT(B7:B8)<2,\"待输入\",B7-B8)",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B30",
+          "formula": "=IF(COUNT(B7,B29)<2,\"待输入\",IF(B7>0,B29/B7,\"检查净收入\"))",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B31",
+          "formula": "=IF(COUNT(B9,B29)<2,\"待输入\",IF(B18<>\"已核对\",\"待核对口径\",IF(B9>0,B29/B9,\"检查广告收入\")))",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B32",
+          "formula": "=IF(COUNT(B9:B11)<3,\"待输入\",IF(B19=\"\",\"补CVR依据\",IF(AND(B9>0,B10>=0,B10<=1,B11>=0,B11<=1),PRODUCT(B9:B11),\"检查输入\")))",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B33",
+          "formula": "=IF(COUNT(B11,B29)<2,\"待输入\",IF(B18<>\"已核对\",\"待核对口径\",IF(AND(B11>=0,B11<=1),B29*B11,\"检查CVR\")))",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B34",
+          "formula": "=IF(ISNUMBER(B12),B12*14,\"待输入\")",
+          "cached": "待输入"
+        },
+        {
+          "cell": "B35",
+          "formula": "=IF(COUNT(B13,B34)<2,\"待输入\",IF(B13>=B34,\"可覆盖预算估算\",\"调整预算或缩短测试\"))",
+          "cached": "待输入"
+        }
+      ],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "广告参数与经济上限",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "浅黄色为空白输入。广告归因收入与利润实收收入分别填写，先核对同一ASIN和成交口径。",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "参数",
+          "输入值",
+          "单位",
+          "口径与用途",
+          "所需依据",
+          "负责人"
+        ],
+        [
+          "当前商品标价",
+          null,
+          "EUR",
+          "报价及当前优惠快照。历史18.99不是当前售价。",
+          "当前后台报价",
+          null
+        ],
+        [
+          "利润口径每单净收入",
+          null,
+          "EUR",
+          "实际收入按已确认税、折扣、退款口径填写。",
+          "订单实收或财务模型",
+          null
+        ],
+        [
+          "每单变动成本",
+          null,
+          "EUR",
+          "采购、物流、佣金、履约、优惠及预期退货等。",
+          "财务确认，避免优惠重复扣减",
+          null
+        ],
+        [
+          "广告归因口径每单成交收入",
+          null,
+          "EUR",
+          "与广告销售额及订单口径一致。不能默认等于标价或利润实收。",
+          "归因成熟报告的销售额÷订单",
+          null
+        ],
+        [
+          "目标ACoS",
+          null,
+          "%",
+          "阶段目标，结合利润及允许的测试亏损确认。",
+          "经营目标，不默认25%",
+          null
+        ],
+        [
+          "估计广告CVR",
+          null,
+          "%",
+          "本ASIN广告订单÷点击，或明确标注的待验证假设。",
+          "不能用全变体流量转化率",
+          null
+        ],
+        [
+          "已确认总平均日预算",
+          null,
+          "EUR/日",
+          "本轮首测四活动的平均日预算。并非单日硬上限。",
+          "负责人确认，结合账户预算规则",
+          null
+        ]
+      ]
+    },
+    "本轮投放": {
+      "size": [
+        31,
+        13
+      ],
+      "tables": [
+        {
+          "name": "InitialTargets",
+          "ref": "A5:M31"
+        }
+      ],
+      "freeze": "B6",
+      "formulas": [],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "本轮22关键词与4自动组",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "所有对象为设计候选，当前真实CPC、预算和归因数据未取得。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "ID",
+          "活动",
+          "广告组",
+          "投放对象",
+          "匹配",
+          "数据性质",
+          "2025W46频率排名",
+          "建议基础bid EUR",
+          "实际基础bid EUR",
+          "候选状态",
+          "人工决定",
+          "依据",
+          "来源文件及行"
+        ],
+        [
+          "T001",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "mauspad",
+          "精准",
+          "输入词库候选",
+          308,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行2\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行3\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行2,16\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行2\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行2"
+        ],
+        [
+          "T002",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "mousepad",
+          "精准",
+          "输入词库候选",
+          700,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行3\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行4\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行3,24\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行3\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行3"
+        ],
+        [
+          "T003",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "mouse pad",
+          "精准",
+          "输入词库候选",
+          9642,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行8\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行9\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行4\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行4"
+        ],
+        [
+          "T004",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "gaming mauspad",
+          "精准",
+          "输入词库候选",
+          5937,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "游戏使用场景，不表示已验证专业性能",
+          "鼠标垫关键词.xlsx / Sheet1 行6\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行7\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行87\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行2"
+        ],
+        [
+          "T005",
+          "DE_YXWS900_SP_CORE_EX_V1",
+          "CORE_EX",
+          "mauspad gaming",
+          "精准",
+          "输入词库候选",
+          6302,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "游戏使用场景，不表示已验证专业性能",
+          "鼠标垫关键词.xlsx / Sheet1 行7\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行8\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行18,88\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行79"
+        ],
+        [
+          "T006",
+          "DE_YXWS900_SP_XXL_EX_PH_V1",
+          "XXL_EX",
+          "mauspad xxl",
+          "精准",
+          "输入词库候选",
+          2941,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "大桌垫相关；超大规格用词不替代明确尺寸",
+          "鼠标垫关键词.xlsx / Sheet1 行4\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行5\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行17,47\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行71\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行77"
+        ],
+        [
+          "T007",
+          "DE_YXWS900_SP_XXL_EX_PH_V1",
+          "XXL_EX",
+          "mousepad xxl",
+          "精准",
+          "输入词库候选",
+          4597,
+          null,
+          null,
+          "启用候选，未执行",
+          null,
+          "大桌垫相关；超大规格用词不替代明确尺寸",
+          "鼠标垫关键词.xlsx / Sheet1 行5\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行6\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行25,48\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行78"
+        ]
+      ]
+    },
+    "否词审核": {
+      "size": [
+        28,
+        8
+      ],
+      "tables": [
+        {
+          "name": "NegativeCandidates",
+          "ref": "A5:H28"
+        }
+      ],
+      "freeze": "B6",
+      "formulas": [],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "23条否词候选",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "先核对产品事实和已有否词范围。未执行否词，不一刀切排除mauspad、xxl、gaming或anime。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "ID",
+          "否词",
+          "否定匹配",
+          "范围",
+          "理由",
+          "执行条件",
+          "人工决定",
+          "来源文件及行"
+        ],
+        [
+          "N001",
+          "gelkissen",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "没有凝胶腕托属性，需产品确认",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 出单跟进 行8,9,10"
+        ],
+        [
+          "N002",
+          "handgelenkauflage",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "大平面桌垫不是腕托",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行14"
+        ],
+        [
+          "N003",
+          "wrist rest",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "大平面桌垫不是腕托",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行13"
+        ],
+        [
+          "N004",
+          "schreibtischunterlage leder",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "非皮革桌垫意图，需材质确认",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行38"
+        ],
+        [
+          "N005",
+          "schreibtischunterlage filz",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "非毛毡桌垫意图，需材质确认",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行39"
+        ],
+        [
+          "N006",
+          "schreibtischunterlage transparent",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "不是透明桌垫",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行35"
+        ],
+        [
+          "N007",
+          "schreibtischunterlage papier",
+          "否定词组",
+          "900版首轮关键词及自动活动；将来竞品专项另核对",
+          "不是纸桌垫",
+          "产品事实确认后处理",
+          null,
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行34"
+        ]
+      ]
+    },
+    "词库审核": {
+      "size": [
+        372,
+        11
+      ],
+      "tables": [
+        {
+          "name": "FullKeywordAudit",
+          "ref": "A5:K372"
+        }
+      ],
+      "freeze": "C6",
+      "formulas": [],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "完整367词审核",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "排名均为2025第46周。内部搜索量未核实工具与采集周期。可筛选分类和人工决定。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "ID",
+          "关键词",
+          "分类",
+          "建议",
+          "首轮投词",
+          "2025W46频率排名",
+          "内部量首条原值",
+          "量口径",
+          "人工决定",
+          "原因",
+          "来源文件及行"
+        ],
+        [
+          "K001",
+          "mauspad",
+          "品类或桌面场景",
+          "候选",
+          "是",
+          308,
+          28039,
+          "搜索量，日期及来源待核；首条原记录",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行2\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行3\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行2,16\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行2\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行2"
+        ],
+        [
+          "K002",
+          "mousepad",
+          "品类或桌面场景",
+          "候选",
+          "是",
+          700,
+          22938,
+          "搜索量，日期及来源待核；首条原记录",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行3\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行4\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行3,24\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行3\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行3"
+        ],
+        [
+          "K003",
+          "mauspad xxl",
+          "大尺寸",
+          "候选",
+          "是",
+          2941,
+          8059,
+          "周搜索量，日期及来源待核；首条原记录",
+          null,
+          "大桌垫相关；超大规格用词不替代明确尺寸",
+          "鼠标垫关键词.xlsx / Sheet1 行4\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行5\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行17,47\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行71\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行77"
+        ],
+        [
+          "K004",
+          "mousepad xxl",
+          "大尺寸",
+          "候选",
+          "是",
+          4597,
+          5155,
+          "周搜索量，日期及来源待核；首条原记录",
+          null,
+          "大桌垫相关；超大规格用词不替代明确尺寸",
+          "鼠标垫关键词.xlsx / Sheet1 行5\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行6\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行25,48\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行78"
+        ],
+        [
+          "K005",
+          "gaming mauspad",
+          "游戏场景",
+          "候选",
+          "是",
+          5937,
+          4006,
+          "周搜索量，日期及来源待核；首条原记录",
+          null,
+          "游戏使用场景，不表示已验证专业性能",
+          "鼠标垫关键词.xlsx / Sheet1 行6\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行7\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行87\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行2"
+        ],
+        [
+          "K006",
+          "mauspad gaming",
+          "游戏场景",
+          "候选",
+          "是",
+          6302,
+          3388,
+          "周搜索量，日期及来源待核；首条原记录",
+          null,
+          "游戏使用场景，不表示已验证专业性能",
+          "鼠标垫关键词.xlsx / Sheet1 行7\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行8\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-90 40 行18,88\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行79"
+        ],
+        [
+          "K007",
+          "mouse pad",
+          "品类或桌面场景",
+          "候选",
+          "是",
+          9642,
+          null,
+          "无量记录",
+          null,
+          "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+          "鼠标垫关键词.xlsx / Sheet1 行8\nDE_Top_search_terms_Simple_Week_2025_11_15.xlsx / DE_Top_search_terms_Simple_Week 行9\n鼠标垫推广跟进表格-2025.08.16.xlsx / 2026.08.07梳理ST关键词 行4\n鼠标垫推广跟进表格-2025.08.16.xlsx / 关键词词库-小尺寸加护托 行4"
+        ]
+      ]
+    },
+    "两周动作": {
+      "size": [
+        10,
+        9
+      ],
+      "tables": [
+        {
+          "name": "TwoWeekActions",
+          "ref": "A5:I10"
+        }
+      ],
+      "freeze": "A6",
+      "formulas": [],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "首两周执行与复盘",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "第7天核对送量和相关性。第14天结合归因回补、费用、库存和真实销售复盘。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "时间",
+          "工作",
+          "必要输入",
+          "AI交付",
+          "验收与处理",
+          "责任角色",
+          "执行记录",
+          "实际完成日期",
+          "状态"
+        ],
+        [
+          "D0",
+          "输入与资格核对",
+          "SKU/ASIN/当前库存报价/现有活动/成本/预算",
+          "重复活动检查和可执行参数草案",
+          "有库存和资格；不复制2025旧竞价",
+          "广告增长负责人",
+          null,
+          null,
+          null
+        ],
+        [
+          "D1-D3",
+          "送量检查",
+          "逐目标曝光、点击、花费、状态、预算",
+          "资格/曝光/CTR/预算问题诊断",
+          "无曝光先查资格与相关性，再按已定阶梯调整",
+          "广告增长负责人",
+          null,
+          null,
+          null
+        ],
+        [
+          "D4-D7，第7天检查",
+          "查询清洗",
+          "真实搜索词/ASIN，成熟与未成熟分列",
+          "不相关排除候选和变更台账",
+          "相关无单词须检查样本和归因，不机械否定",
+          "广告增长负责人",
+          null,
+          null,
+          null
+        ],
+        [
+          "D8-D10",
+          "回补与样本评价",
+          "回补报表、库存/报价和预算限制",
+          "有效查询精准候选与预算调整建议",
+          "总测试额和库存能支持才扩量",
+          "广告增长负责人",
+          null,
+          null,
+          null
+        ],
+        [
+          "D11-D14，第14天复盘",
+          "阶段复盘",
+          "较成熟广告数据+经营销售+成本+动作记录",
+          "保留/提价/降价/否定/暂停/补词及证据",
+          "有数据才能判断利润、ACoS；缺项写不可判定",
+          "广告增长负责人",
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "历史记录": {
+      "size": [
+        46,
+        10
+      ],
+      "tables": [
+        {
+          "name": "HistoricalEvents",
+          "ref": "A5:J35"
+        }
+      ],
+      "freeze": "B6",
+      "formulas": [
+        {
+          "cell": "B39",
+          "formula": "=SUM(B6:B35)",
+          "cached": 66
+        },
+        {
+          "cell": "B40",
+          "formula": "=SUM(D6:D35)",
+          "cached": 151
+        },
+        {
+          "cell": "B41",
+          "formula": "=SUM(C6:C35)",
+          "cached": 7
+        },
+        {
+          "cell": "B42",
+          "formula": "=SUM(F6:F35)",
+          "cached": 2668
+        }
+      ],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "2026历史记录与库存事件",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "全款式与月下武士栏均非单ASIN广告表现。人工干预订单不用于验证真实转化。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "日期",
+          "月下武士栏订单",
+          "其中人工干预单",
+          "全款式总订单",
+          "全款式人工干预单",
+          "记录流量全款式",
+          "经营备注",
+          "广告动作",
+          "数据性质",
+          "来源文件及行"
+        ],
+        [
+          "2026-08-05 00:00:00",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "完善完所有图片主附图/A+，添加进入旧款的关联坑位/提报月下武士绿标/先不捆绑变体",
+          "开1组自动/1组大词/1组长尾",
+          "事件或模板，不能认定销量",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行3"
+        ],
+        [
+          "2026-08-06 00:00:00",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "捆绑变体",
+          "加入25年款的品牌手动广告组/跟25年款式一起创建一个头条广告组",
+          "事件或模板，不能认定销量",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行4"
+        ],
+        [
+          "2026-08-07 00:00:00",
+          3,
+          3,
+          4,
+          3,
+          20,
+          "2单留评单",
+          "完善广告手动组架构",
+          "款式订单台账",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行5"
+        ],
+        [
+          "2026-08-08 00:00:00",
+          3,
+          1,
+          5,
+          1,
+          28,
+          null,
+          null,
+          "款式订单台账",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行6"
+        ],
+        [
+          "2026-08-09 00:00:00",
+          null,
+          null,
+          1,
+          0,
+          36,
+          null,
+          null,
+          "款式订单台账",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行7"
+        ],
+        [
+          "2026-08-10 00:00:00",
+          1,
+          null,
+          1,
+          0,
+          28,
+          null,
+          null,
+          "款式订单台账",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行8"
+        ],
+        [
+          "2026-08-11 00:00:00",
+          2,
+          2,
+          3,
+          2,
+          60,
+          null,
+          "调整长尾词组竞价",
+          "款式订单台账",
+          "鼠标垫推广跟进表格-2025.08.16.xlsx / 新款鼠标垫出单跟进 行9"
+        ]
+      ]
+    },
+    "来源与商品候选": {
+      "size": [
+        37,
+        10
+      ],
+      "tables": [
+        {
+          "name": "SourceAudit",
+          "ref": "A5:G19"
+        },
+        {
+          "name": "OfficialSources",
+          "ref": "A23:B29"
+        },
+        {
+          "name": "CompetitorCandidates",
+          "ref": "A33:J37"
+        }
+      ],
+      "freeze": "A6",
+      "formulas": [
+        {
+          "cell": "G34",
+          "formula": "=IF(COUNT(D34,'参数与公式'!$B$6)<2,\"待输入\",'参数与公式'!$B$6-D34)",
+          "cached": "待输入"
+        },
+        {
+          "cell": "H34",
+          "formula": "=IF(AND(ISNUMBER(D34),ISNUMBER('参数与公式'!$B$6),E34=\"有库存\",F34=\"匹配900版\"),\"可评估，未投放\",\"待核验，不投放\")",
+          "cached": "待核验，不投放"
+        },
+        {
+          "cell": "G35",
+          "formula": "=IF(COUNT(D35,'参数与公式'!$B$6)<2,\"待输入\",'参数与公式'!$B$6-D35)",
+          "cached": "待输入"
+        },
+        {
+          "cell": "H35",
+          "formula": "=IF(AND(ISNUMBER(D35),ISNUMBER('参数与公式'!$B$6),E35=\"有库存\",F35=\"匹配900版\"),\"可评估，未投放\",\"待核验，不投放\")",
+          "cached": "待核验，不投放"
+        },
+        {
+          "cell": "G36",
+          "formula": "=IF(COUNT(D36,'参数与公式'!$B$6)<2,\"待输入\",'参数与公式'!$B$6-D36)",
+          "cached": "待输入"
+        },
+        {
+          "cell": "H36",
+          "formula": "=IF(AND(ISNUMBER(D36),ISNUMBER('参数与公式'!$B$6),E36=\"有库存\",F36=\"匹配900版\"),\"可评估，未投放\",\"待核验，不投放\")",
+          "cached": "待核验，不投放"
+        },
+        {
+          "cell": "G37",
+          "formula": "=IF(COUNT(D37,'参数与公式'!$B$6)<2,\"待输入\",'参数与公式'!$B$6-D37)",
+          "cached": "待输入"
+        },
+        {
+          "cell": "H37",
+          "formula": "=IF(AND(ISNUMBER(D37),ISNUMBER('参数与公式'!$B$6),E37=\"有库存\",F37=\"匹配900版\"),\"可评估，未投放\",\"待核验，不投放\")",
+          "cached": "待核验，不投放"
+        }
+      ],
+      "header_and_rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "来源核对与第二轮商品候选",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "900 × 400 × 3 mm    ASIN B0H5HKNFDM    DE / EUR    2026-10-04",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "竞品为2025历史候选。当前价、库存、规格未核验，商品定向未启用。",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "来源文件",
+          "工作表",
+          "期间或标签",
+          "可用范围与限制",
+          "非空行",
+          "最大行",
+          "最大列",
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫关键词.xlsx",
+          "Sheet1",
+          "2025-11-09～11-15，73项逐词同值匹配推定",
+          "历史ABA排名词语，同一来源不重复计数",
+          74,
+          74,
+          2,
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫关键词.xlsx",
+          "Sheet2",
+          "未注明",
+          "空表",
+          0,
+          1,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫关键词.xlsx",
+          "Sheet3",
+          "未注明",
+          "空表",
+          0,
+          1,
+          1,
+          null,
+          null,
+          null
+        ],
+        [
+          "DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "DE_Top_search_terms_Simple_Week",
+          "2025-11-09/2025-11-15",
+          "历史ABA频率排名/前三点击商品及份额，不含搜索量/CPC",
+          75,
+          75,
+          21,
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "出单跟进",
+          "2025-08-14～11-01，包含空模板尾部",
+          "旧品管理参照，不迁移本品竞价/售价",
+          82,
+          82,
+          21,
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "关键词词库-小尺寸加护托",
+          "未注明",
+          "辅助核对；旧腕托词和其他款式不得套至本品；售后交易信息不进入广告",
+          83,
+          85,
+          6,
+          null,
+          null,
+          null
+        ],
+        [
+          "鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "关键词词库-90 40",
+          "未注明",
+          "内部词语及有数的历史量记录；来源/日期/方法未核实",
+          210,
+          224,
+          4,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "counts": {
+    "first_campaigns": 4,
+    "configuration_rows": 6,
+    "keywords": 367,
+    "unique_keyword_strings": 367,
+    "keyword_targets": 22,
+    "unique_keyword_targets": 19,
+    "auto_targets": 4,
+    "negatives": 23
+  },
+  "aba_vs_short_equal": true,
+  "aba_period": [
+    "Reporting range=[\"Weekly\"]",
+    "Select week=[\"Week 46 | 2025-11-09 - 2025-11-15 2025\"]",
+    "Top clicked products=[\"B07H37NQNQ\"]",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "decisions": {
+    "candidate": 112,
+    "hold": 103,
+    "candidate_low_priority": 8,
+    "exclude": 1,
+    "exclude_initial": 77,
+    "separate_variant": 17,
+    "exclude_pending_fact_check": 41,
+    "candidate_test": 8
+  },
+  "categories": {
+    "core_or_desk_scene": 32,
+    "size_general": 40,
+    "gaming_scene": 19,
+    "size_900x400": 21,
+    "competitor_brand": 39,
+    "typo_variant": 8,
+    "color_black_gray": 8,
+    "data_error": 1,
+    "ambiguous": 12,
+    "other_or_ambiguous_size": 8,
+    "other_size": 36,
+    "size_1200x600": 17,
+    "other_color": 30,
+    "incompatible_feature_or_structure": 41,
+    "other_motif": 11,
+    "anime_style": 16,
+    "unverified_performance": 2,
+    "broad_accessory": 18,
+    "design_japanese_samurai": 8
+  },
+  "targets": [
+    {
+      "campaign": "DE_YXWS900_SP_CORE_EX_V1",
+      "ad_group": "CORE_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad",
+      "match_type": "EXACT",
+      "priority": 1,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 308,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 2,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 3,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 2,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 16,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 2,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 2,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 2
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 3
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 2
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 16
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 2
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_CORE_EX_V1",
+      "ad_group": "CORE_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mousepad",
+      "match_type": "EXACT",
+      "priority": 2,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 700,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 3,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 4,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 3,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 24,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 3,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 3,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 3
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 4
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 3
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 24
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 3
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_CORE_EX_V1",
+      "ad_group": "CORE_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mouse pad",
+      "match_type": "EXACT",
+      "priority": 3,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 9642,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "品类/桌面使用相关；宽泛桌垫词需小范围测试",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 8,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 9,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 4,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 4,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 8
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 9
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 4
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_CORE_EX_V1",
+      "ad_group": "CORE_EX",
+      "target_type": "KEYWORD",
+      "keyword": "gaming mauspad",
+      "match_type": "EXACT",
+      "priority": 4,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 5937,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "游戏使用场景，不表示已验证专业性能",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 6,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 7,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 87,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 2,
+          "column": "K:N"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 6
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 7
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 87
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_CORE_EX_V1",
+      "ad_group": "CORE_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad gaming",
+      "match_type": "EXACT",
+      "priority": 5,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 6302,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "游戏使用场景，不表示已验证专业性能",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 7,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 8,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 18,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 88,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 79,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 7
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 8
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 18
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 88
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 79
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad xxl",
+      "match_type": "EXACT",
+      "priority": 1,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 2941,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 4,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 5,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 17,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 47,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 71,
+          "column": "P:S"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 77,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 4
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 5
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 17
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 47
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 71
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 77
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mousepad xxl",
+      "match_type": "EXACT",
+      "priority": 2,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 4597,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 5,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 6,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 25,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 48,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 78,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 5
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 6
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 25
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 48
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 78
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "xxl mauspad",
+      "match_type": "EXACT",
+      "priority": 3,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 12511,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 9,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 10,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 80,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 9
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 10
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 80
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad groß",
+      "match_type": "EXACT",
+      "priority": 4,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 28029,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 12,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 13,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 19,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 49,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 73,
+          "column": "P:S"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 83,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 12
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 13
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 19
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 49
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 73
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 83
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "großes mauspad",
+      "match_type": "EXACT",
+      "priority": 5,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 73508,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 21,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 22,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 52,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 21
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 22
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 52
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad 900x400",
+      "match_type": "EXACT",
+      "priority": 6,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 39965,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "与本轮实际尺寸一致",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 15,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 16,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 21,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 50,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 15
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 16
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 21
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 50
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "mousepad 900x400",
+      "match_type": "EXACT",
+      "priority": 7,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 160554,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "与本轮实际尺寸一致",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 34,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 35,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 29,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 51,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 34
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 35
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 29
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 51
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "gaming mauspad xxl",
+      "match_type": "EXACT",
+      "priority": 8,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 59043,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 17,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 18,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 72,
+          "column": "P:S"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 17
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 18
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 72
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_EX",
+      "target_type": "KEYWORD",
+      "keyword": "gaming mousepad xxl",
+      "match_type": "EXACT",
+      "priority": 9,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 122089,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 27,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 28,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 104,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 4,
+          "column": "K:N"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 27
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 28
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 104
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad xxl",
+      "match_type": "PHRASE",
+      "priority": 1,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 2941,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 4,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 5,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 17,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 47,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 71,
+          "column": "P:S"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 77,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 4
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 5
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 17
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 47
+        },
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 71
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 77
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mousepad xxl",
+      "match_type": "PHRASE",
+      "priority": 2,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 4597,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "大桌垫相关；超大规格用词不替代明确尺寸",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 5,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 6,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 25,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 48,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 78,
+          "column": "A:B"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 5
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 6
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 25
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 48
+        },
+        {
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 78
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_XXL_EX_PH_V1",
+      "ad_group": "XXL_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad 900x400",
+      "match_type": "PHRASE",
+      "priority": 3,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": 39965,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "与本轮实际尺寸一致",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 15,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 16,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 21,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 50,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "Sheet1",
+          "row": 15
+        },
+        {
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 16
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 21
+        },
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 50
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_DESIGN_PH_V1",
+      "ad_group": "DESIGN_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad japanisch",
+      "match_type": "PHRASE",
+      "priority": 1,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": null,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "图案相关；当前搜索量及转化未验证",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 8,
+          "column": "F:I"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_DESIGN_PH_V1",
+      "ad_group": "DESIGN_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad japan style",
+      "match_type": "PHRASE",
+      "priority": 2,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": null,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "图案相关；当前搜索量及转化未验证",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 185,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "关键词词库-90 40",
+          "row": 185
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_DESIGN_PH_V1",
+      "ad_group": "DESIGN_PH",
+      "target_type": "KEYWORD",
+      "keyword": "fantasy mauspad",
+      "match_type": "PHRASE",
+      "priority": 3,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": null,
+      "data_origin": "INPUT_CANDIDATE",
+      "decision_reason": "图案相关；当前搜索量及转化未验证",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 29,
+          "column": "F:I"
+        }
+      ],
+      "exact_source_hits": [
+        {
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_DESIGN_PH_V1",
+      "ad_group": "DESIGN_PH",
+      "target_type": "KEYWORD",
+      "keyword": "mauspad samurai",
+      "match_type": "PHRASE",
+      "priority": 4,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": null,
+      "data_origin": "AI_HYPOTHESIS",
+      "decision_reason": "图案相关；当前搜索量及转化未验证",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    },
+    {
+      "campaign": "DE_YXWS900_SP_DESIGN_PH_V1",
+      "ad_group": "DESIGN_PH",
+      "target_type": "KEYWORD",
+      "keyword": "samurai mauspad",
+      "match_type": "PHRASE",
+      "priority": 5,
+      "proposed_base_bid_eur": null,
+      "current_bid_eur": null,
+      "current_cpc_eur": null,
+      "current_search_volume": null,
+      "aba_frequency_rank_2025W46": null,
+      "data_origin": "AI_HYPOTHESIS",
+      "decision_reason": "图案相关；当前搜索量及转化未验证",
+      "proposed_status": "DRAFT",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    },
+    {
+      "campaign": "DE_YXWS900_SP_AUTO_V1",
+      "ad_group": "AUTO",
+      "target_type": "AUTO_GROUP",
+      "keyword": null,
+      "auto_group": "close-match",
+      "match_type": "AUTO",
+      "proposed_base_bid_eur": null,
+      "proposed_status": "CANDIDATE_ENABLED",
+      "decision_reason": "紧密相关探索",
+      "source_url": "https://advertising.amazon.com/library/guides/targeting-with-sponsored-products",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    },
+    {
+      "campaign": "DE_YXWS900_SP_AUTO_V1",
+      "ad_group": "AUTO",
+      "target_type": "AUTO_GROUP",
+      "keyword": null,
+      "auto_group": "loose-match",
+      "match_type": "AUTO",
+      "proposed_base_bid_eur": null,
+      "proposed_status": "CANDIDATE_ENABLED",
+      "decision_reason": "较宽查询探索，需要否词和预算控制",
+      "source_url": "https://advertising.amazon.com/library/guides/targeting-with-sponsored-products",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    },
+    {
+      "campaign": "DE_YXWS900_SP_AUTO_V1",
+      "ad_group": "AUTO",
+      "target_type": "AUTO_GROUP",
+      "keyword": null,
+      "auto_group": "substitutes",
+      "match_type": "AUTO",
+      "proposed_base_bid_eur": null,
+      "proposed_status": "CANDIDATE_ENABLED",
+      "decision_reason": "同类商品探索",
+      "source_url": "https://advertising.amazon.com/library/guides/targeting-with-sponsored-products",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    },
+    {
+      "campaign": "DE_YXWS900_SP_AUTO_V1",
+      "ad_group": "AUTO",
+      "target_type": "AUTO_GROUP",
+      "keyword": null,
+      "auto_group": "complements",
+      "match_type": "AUTO",
+      "proposed_base_bid_eur": null,
+      "proposed_status": "CANDIDATE_PAUSED",
+      "decision_reason": "首轮预算有限，先验证相关品类与替代品",
+      "source_url": "https://advertising.amazon.com/library/guides/targeting-with-sponsored-products",
+      "refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "exact_source_hits": []
+    }
+  ],
+  "negative_records": [
+    {
+      "keyword": "gelkissen",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "没有凝胶腕托属性，需产品确认",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "出单跟进",
+          "row": 8,
+          "column": "文本命中"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "出单跟进",
+          "row": 9,
+          "column": "文本命中"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "出单跟进",
+          "row": 10,
+          "column": "文本命中"
+        }
+      ],
+      "data_origin": "derived_negative_hypothesis"
+    },
+    {
+      "keyword": "handgelenkauflage",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "大平面桌垫不是腕托",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 14,
+          "column": "A:B"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "wrist rest",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "大平面桌垫不是腕托",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 13,
+          "column": "A:B"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "schreibtischunterlage leder",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非皮革桌垫意图，需材质确认",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 38,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "schreibtischunterlage filz",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非毛毡桌垫意图，需材质确认",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 39,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "schreibtischunterlage transparent",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "不是透明桌垫",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 35,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "schreibtischunterlage papier",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "不是纸桌垫",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 34,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "rgb mauspad",
+      "negative_match_type": "NEGATIVE_PHRASE",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "没有已证实RGB功能，产品确认后排除",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026新款鼠标垫文案",
+          "row": 2,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "derived_negative_hypothesis"
+    },
+    {
+      "keyword": "mauspad 1200x600",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "1200版不进入900版活动",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 20,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 80,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mousepad 1200x600",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "1200版不进入900版活动",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 28,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mauspad 900x500",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "尺寸不符",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 69,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mousepad 1000x500",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "尺寸不符",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 77,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mousepad katze",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "猫图案非本品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 178,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mauspad xxl katze",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "猫图案非本品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 9,
+          "column": "F:I"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "sakura mauspad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "樱花图案非本品主图案",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 184,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "schreibtischunterlage weltkarte",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "世界地图非本品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 40,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "mauspad weiß",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非纯白产品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 158,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 5,
+          "column": "U:X"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "white mousepad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非纯白产品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 159,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "blaues mauspad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非蓝色主色",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 14,
+          "column": "U:X"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "anime mousepad grün",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "非绿色动漫产品",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "2026.08.07梳理ST关键词",
+          "row": 19,
+          "column": "U:X"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "titanwolf mauspad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "首轮不测试竞品强品牌意图",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫关键词.xlsx",
+          "sheet": "Sheet1",
+          "row": 16,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 17,
+          "column": "A:B"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 119,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "logitech mauspad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "首轮不测试竞品强品牌意图",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 120,
+          "column": "A:D"
+        },
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-小尺寸加护托",
+          "row": 59,
+          "column": "A:B"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    },
+    {
+      "keyword": "razer mousepad",
+      "negative_match_type": "NEGATIVE_EXACT",
+      "scope": "900版首轮关键词及自动活动；将来竞品专项另核对",
+      "reason": "首轮不测试竞品强品牌意图",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "requires_product_fact_check": true,
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/鼠标垫推广跟进表格-2025.08.16.xlsx",
+          "sheet": "关键词词库-90 40",
+          "row": 123,
+          "column": "A:D"
+        }
+      ],
+      "data_origin": "input_term_or_derived_fragment"
+    }
+  ],
+  "historical_raw_spots": [
+    {
+      "row": 3,
+      "values": [
+        "星期三",
+        "2026-08-05 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        "#DIV/0!",
+        null,
+        null,
+        "XXL gaming mauspad samurai im mondlicht",
+        "完善完所有图片主附图/A+，添加进入旧款的关联坑位/提报月下武士绿标/先不捆绑变体",
+        "开1组自动/1组大词/1组长尾",
+        null
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "星期五",
+        "2026-08-07 00:00:00",
+        3,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        4,
+        3,
+        "/",
+        20,
+        0.2,
+        null,
+        null,
+        "XXL gaming mauspad samurai im mondlicht",
+        "2单留评单",
+        "完善广告手动组架构",
+        null
+      ]
+    },
+    {
+      "row": 9,
+      "values": [
+        "星期二",
+        "2026-08-11 00:00:00",
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        3,
+        2,
+        null,
+        60,
+        0.05,
+        null,
+        null,
+        null,
+        null,
+        "调整长尾词组竞价",
+        null
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        "星期二",
+        "2026-08-18 00:00:00",
+        3,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        4,
+        8,
+        0,
+        "128/6.690",
+        155,
+        0.0516129032258065,
+        null,
+        "10-5.0（3+0）",
+        null,
+        "测款库存不足/全部涨价17.99-18.99",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "星期五",
+        "2026-08-21 00:00:00",
+        2,
+        null,
+        2,
+        1,
+        null,
+        2,
+        null,
+        1,
+        8,
+        0,
+        "105/5.701",
+        107,
+        0.0747663551401869,
+        null,
+        "11-5.0（3+0）",
+        null,
+        "海浪汽车断货",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 22,
+      "values": [
+        "星期一",
+        "2026-08-24 00:00:00",
+        2,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        6,
+        0,
+        null,
+        98,
+        0.0612244897959184,
+        null,
+        null,
+        null,
+        "库存深度不够，缩减广告",
+        "自动组调整竞价模式为down only/\n26鼠标垫-M-游戏类-2026.08.07暂停/26鼠标垫-尺寸词-2026.08.07暂停",
+        null
+      ]
+    },
+    {
+      "row": 26,
+      "values": [
+        "星期五",
+        "2026-08-28 00:00:00",
+        7,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        9,
+        0,
+        null,
+        116,
+        0.0775862068965517,
+        null,
+        null,
+        null,
+        "5%coupon到期",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 29,
+      "values": [
+        "星期一",
+        "2026-08-31 00:00:00",
+        6,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        7,
+        0,
+        "115/5.939",
+        94,
+        0.074468085106383,
+        null,
+        "21-5.0（5+0）",
+        null,
+        "5%coupon恢复",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 30,
+      "values": [
+        "星期二",
+        "2026-09-01 00:00:00",
+        4,
+        null,
+        2,
+        null,
+        null,
+        1,
+        null,
+        null,
+        7,
+        0,
+        "128/6.663",
+        86,
+        0.0813953488372093,
+        null,
+        "22-5.0（0+0）",
+        null,
+        null,
+        "26鼠标垫-M-核心词--词组-2026.09.01关闭旧核心词组，重新开词组组",
+        null
+      ]
+    },
+    {
+      "row": 31,
+      "values": [
+        "星期三",
+        "2026-09-02 00:00:00",
+        4,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        6,
+        0,
+        "144/7.279",
+        null,
+        "#DIV/0!",
+        null,
+        "22-5.0（0+0）",
+        null,
+        "月下武士断货",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 32,
+      "values": [
+        "星期四",
+        "2026-09-03 00:00:00",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        "#DIV/0!",
+        null,
+        null,
+        null,
+        null,
+        "关闭26鼠标垫手动组，仅保留自动组",
+        null
+      ]
+    },
+    {
+      "row": 65,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        151,
+        7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "historical_raw_sums": {
+    "moon_style": 66,
+    "moon_intervention": 7,
+    "all_styles": 151,
+    "all_style_traffic": 2668
+  },
+  "competitor_source_checks": [
+    {
+      "asin": "B0F1MX7BBY",
+      "row": 5,
+      "raw_row_contains_asin": true
+    },
+    {
+      "asin": "B0BWFDZZ31",
+      "row": 6,
+      "raw_row_contains_asin": true
+    },
+    {
+      "asin": "B084D8TF92",
+      "row": 10,
+      "raw_row_contains_asin": true
+    },
+    {
+      "asin": "B07H37NQNQ",
+      "row": 3,
+      "raw_row_contains_asin": true
+    }
+  ],
+  "competitor_candidates": [
+    {
+      "campaign": "DE_YXWS900_SP_ASIN_PT_V2",
+      "ad_group": "ART_DESKMAT_PT",
+      "target_type": "ASIN",
+      "target_asin": "B0F1MX7BBY",
+      "historical_title": "Sevenpers Mousepad XXL, Japanische Kunst Mauspads,900x400mm Überdimensionales rutschfeste Gummimatten Gaming-Mauspads,Waschbares Mauspad für PC,Maus und Tastatur (Grau)",
+      "historical_click_share_pct": 5.61,
+      "historical_conversion_share_pct": 2.21,
+      "historical_period": "2025-11-09/2025-11-15",
+      "current_price_eur": null,
+      "current_in_stock": null,
+      "current_size_verified": null,
+      "price_gap_eur": null,
+      "proposed_bid_eur": null,
+      "status": "CURRENT_PAGE_CHECK_REQUIRED",
+      "rationale": "历史日本艺术风格桌垫候选",
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 5,
+          "column": "Q:T"
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_ASIN_PT_V2",
+      "ad_group": "ART_DESKMAT_PT",
+      "target_type": "ASIN",
+      "target_asin": "B0BWFDZZ31",
+      "historical_title": "Owege Gaming Mauspad XXL 900 x 400 mm Artistic Curve Mousepad Groß Vernähte Kanten WassXerdicht Anti-Rutsch für PC, MacBook,Laptop Verbessert Präzision und GeschwindigkeiX",
+      "historical_click_share_pct": 6.96,
+      "historical_conversion_share_pct": 2.41,
+      "historical_period": "2025-11-09/2025-11-15",
+      "current_price_eur": null,
+      "current_in_stock": null,
+      "current_size_verified": null,
+      "price_gap_eur": null,
+      "proposed_bid_eur": null,
+      "status": "CURRENT_PAGE_CHECK_REQUIRED",
+      "rationale": "历史艺术曲线桌垫候选",
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 6,
+          "column": "M:P"
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_ASIN_PT_V2",
+      "ad_group": "ART_DESKMAT_PT",
+      "target_type": "ASIN",
+      "target_asin": "B084D8TF92",
+      "historical_title": "TITANWOLF - DEUTSCHES LAYOUT - Titanwolf XXL Gaming Mauspad 900x400x3 mm - Schreibtischunterlage Gross - XXL Mousepad Gaming und Office - Weltkarte schwarz",
+      "historical_click_share_pct": 8.1,
+      "historical_conversion_share_pct": 7.45,
+      "historical_period": "2025-11-09/2025-11-15",
+      "current_price_eur": null,
+      "current_in_stock": null,
+      "current_size_verified": null,
+      "price_gap_eur": null,
+      "proposed_bid_eur": null,
+      "status": "CURRENT_PAGE_CHECK_REQUIRED",
+      "rationale": "历史图案桌垫参照",
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 10,
+          "column": "M:P"
+        }
+      ]
+    },
+    {
+      "campaign": "DE_YXWS900_SP_ASIN_PT_V2",
+      "ad_group": "ART_DESKMAT_PT",
+      "target_type": "ASIN",
+      "target_asin": "B07H37NQNQ",
+      "historical_title": "TITANWOLF - XXL Speed Gaming Mauspad Titanwolf Schwarz 900 x 400mm - XXL Mousepad - Tischunterlage Large Size - verbessert Präzision und Geschwindigkeit",
+      "historical_click_share_pct": 8.79,
+      "historical_conversion_share_pct": 4.13,
+      "historical_period": "2025-11-09/2025-11-15",
+      "current_price_eur": null,
+      "current_in_stock": null,
+      "current_size_verified": null,
+      "price_gap_eur": null,
+      "proposed_bid_eur": null,
+      "status": "CURRENT_PAGE_CHECK_REQUIRED",
+      "rationale": "历史高点击核心大桌垫参照",
+      "source_refs": [
+        {
+          "file": "本地未入库：运营数据/01-运营数据-鼠标垫/DE_Top_search_terms_Simple_Week_2025_11_15.xlsx",
+          "sheet": "DE_Top_search_terms_Simple_Week",
+          "row": 3,
+          "column": "I:L"
+        }
+      ]
+    }
+  ],
+  "performance_input_nulls": true
+}

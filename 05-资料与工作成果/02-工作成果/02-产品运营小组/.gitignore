@@ -1,0 +1,12 @@
+# 本地过程及凭证
+.work/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.bak
+*.tmp
+.env
+.env.*
+*.pem
+*.key
